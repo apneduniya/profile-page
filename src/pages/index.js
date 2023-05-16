@@ -5,6 +5,7 @@ import backgroundImg from "/public/background.jpg";
 import avatarImg from "/public/avatar.jpg";
 // import blurryGradentImg from "/public/blurry-gradent.png";
 import Script from 'next/script';
+// import Link from 'next/link';
 
 // import puppeteer from 'puppeteer';
 
@@ -84,7 +85,7 @@ const Home = () => {
               <a variants={childVariants} target='_blank' href='https://www.instagram.com/thatsmeadarsh/' ><lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_f5ytlpiy.json" background="transparent" speed="1" style={{ width: 100, height: 100 }} loop autoplay></lottie-player></a>
               <a variants={childVariants} target='_blank' href='https://twitter.com/thatsmeadarsh' ><lottie-player src="https://assets6.lottiefiles.com/packages/lf20_puu4hfmk.json" background="transparent" speed="1" style={{ width: 100, height: 100 }} loop autoplay></lottie-player></a>
             </div>
-            <a href="/api/download" download="profile.pdf"><lottie-player src="https://assets10.lottiefiles.com/temp/lf20_CALcmp.json" background="transparent" speed="1" style={{ margin: "20px 0", padding: 0, width: 200, height: 50, cursor: "pointer" }} loop autoplay></lottie-player></a>
+            <a href="/api/download" download="profile.pdf" ><lottie-player src="https://assets10.lottiefiles.com/temp/lf20_CALcmp.json" background="transparent" speed="1" style={{ margin: "20px 0", padding: 0, width: 200, height: 50, cursor: "pointer" }} loop autoplay></lottie-player></a>
           </div>
         </div>
       </main>
