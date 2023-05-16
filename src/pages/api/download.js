@@ -14,7 +14,7 @@ const generatePDF = async (req, res) => {
   // Set screen size
   await page.setViewport({width: 2480, height: 4000});
 
-  await page.goto('http://localhost:3000/download', { waitUntil: 'networkidle2' });  // At '/download' the download button for pdf will not be there
+  await page.goto('https://profile-page-sigma.vercel.app/download', { waitUntil: 'networkidle2' });  // At '/download' the download button for pdf will not be there
 
   //To reflect CSS used for screens instead of print
   await page.emulateMediaType('screen');
